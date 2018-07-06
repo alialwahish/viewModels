@@ -1,0 +1,12 @@
+@using viewModel.Models
+@model User
+
+<p>Here are some Users</p>
+
+@{
+
+    foreach (var item in Model.Users)
+    {
+        <p>@item</p>
+    }
+}

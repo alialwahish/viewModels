@@ -1,0 +1,10 @@
+@using viewModel.Models
+@model User
+
+<p>Here are some Numbers</p>
+@{
+    foreach (var item in Model.Numbers)
+    {
+        <p>@item</p>
+    }
+}
